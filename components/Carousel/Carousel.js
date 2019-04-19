@@ -33,6 +33,7 @@ class Carousel {
     6. Have fun!
 */
 
-const carousel = document.querySelector('.carousel');
+const carousel = document.querySelectorAll('.carousel').forEach(carousel => new Carousel(carousel));
+
 
 //comment to commit
